@@ -46,4 +46,4 @@ for epoch in range(5):
             print(f"Epoch {epoch+1} Step {step} | G: {g_loss:.3f} D: {d_loss:.3f} L1: {l1:.3f}")
     print(f"Epoch {epoch+1} done")
 
-G.save("generator.keras")
+G.save("models/generator.keras")
