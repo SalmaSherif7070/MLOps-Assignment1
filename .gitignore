@@ -1,8 +1,10 @@
-data/sketch2pokemon/testA
-data/sketch2pokemon/testB
-data/sketch2pokemon/trainA
-data/sketch2pokemon/trainB
+# Datasets
+data/sketch2pokemon/
 data/sketch2pokemon/archive.zip
+
+# Virtual environments
 venv/
 .venv/
+
+# Python cache
 __pycache__/
