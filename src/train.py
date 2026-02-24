@@ -37,7 +37,7 @@ def train_step(inp, tar):
 
     return g_loss, d_loss, l1_loss
 
-train_ds = create_dataset("data/pokemon_pix2pix_dataset/train")
+train_ds = create_dataset("data/sketch2pokemon/trainA", "data/sketch2pokemon/trainB")
 
 for epoch in range(5):
     for inp, tar in train_ds:
