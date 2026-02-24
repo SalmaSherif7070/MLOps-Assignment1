@@ -2,7 +2,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import os
 
-model = tf.keras.models.load_model("generator.h5")
+model = tf.keras.models.load_model("generator.keras")
 test_dir = "data/sketch2pokemon/testA"
 
 for filename in sorted(os.listdir(test_dir)):
