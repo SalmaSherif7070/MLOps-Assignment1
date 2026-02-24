@@ -1,10 +1,5 @@
-# Datasets
 data/sketch2pokemon/
-data/sketch2pokemon/archive.zip
-
-# Virtual environments
 venv/
 .venv/
-
-# Python cache
 __pycache__/
+*.zip
