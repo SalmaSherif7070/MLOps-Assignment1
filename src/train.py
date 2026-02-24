@@ -40,8 +40,10 @@ def train_step(inp, tar):
 train_ds = create_dataset("data/sketch2pokemon/trainA", "data/sketch2pokemon/trainB")
 
 for epoch in range(5):
-    for inp, tar in train_ds:
-        train_step(inp, tar)
+    for step, (inp, tar) in enumerate(train_ds):
+        g_loss, d_loss, l1 = train_step(inp, tar)
+        if step % 50 == 0:
+            print(f"Epoch {epoch+1} Step {step} | G: {g_loss:.3f} D: {d_loss:.3f} L1: {l1:.3f}")
     print(f"Epoch {epoch+1} done")
 
 G.save("generator.h5")
