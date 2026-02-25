@@ -37,13 +37,13 @@ def train_step(inp, tar):
 
     return g_loss, d_loss, l1_loss
 
-train_ds = create_dataset("data/sketch2pokemon/trainA", "data/sketch2pokemon/trainB")
+train_ds = create_dataset("data\\sketch2pokemon\\trainA", "data\\sketch2pokemon\\trainB")
 
-for epoch in range(5):
+for epoch in range(1):
     for step, (inp, tar) in enumerate(train_ds):
         g_loss, d_loss, l1 = train_step(inp, tar)
         if step % 50 == 0:
             print(f"Epoch {epoch+1} Step {step} | G: {g_loss:.3f} D: {d_loss:.3f} L1: {l1:.3f}")
     print(f"Epoch {epoch+1} done")
 
-G.save("models/generator.keras")
+G.save("src\\models\\generator.keras")

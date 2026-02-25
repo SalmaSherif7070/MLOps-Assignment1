@@ -2,8 +2,8 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import os
 
-model = tf.keras.models.load_model("models/generator.keras")
-test_dir = "data/sketch2pokemon/testA"
+model = tf.keras.models.load_model("src\\models\\generator.keras")
+test_dir = "data\\sketch2pokemon\\testA"
 
 for filename in sorted(os.listdir(test_dir)):
     if not filename.endswith('.jpg'):

@@ -1,6 +1,0 @@
-tensorflow
-numpy
-matplotlib
-pillow
-kaggle
-python-dotenv
