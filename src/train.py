@@ -39,7 +39,7 @@ def train_step(inp, tar):
 
 train_ds = create_dataset("data/sketch2pokemon/trainA", "data/sketch2pokemon/trainB")
 
-for epoch in range(5):
+for epoch in range(30):
     for step, (inp, tar) in enumerate(train_ds):
         g_loss, d_loss, l1 = train_step(inp, tar)
         if step % 50 == 0:

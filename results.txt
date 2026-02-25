@@ -1,0 +1,295 @@
+Epoch 1 Step 0 | G: 86.280 D: 1.687 L1: 0.857
+Epoch 1 Step 50 | G: 29.425 D: 1.114 L1: 0.283
+Epoch 1 Step 100 | G: 28.076 D: 0.832 L1: 0.268
+Epoch 1 Step 150 | G: 18.963 D: 0.521 L1: 0.173
+Epoch 1 Step 200 | G: 32.597 D: 0.568 L1: 0.312
+Epoch 1 Step 250 | G: 24.208 D: 0.732 L1: 0.223
+Epoch 1 Step 300 | G: 21.140 D: 1.225 L1: 0.207
+Epoch 1 Step 350 | G: 16.793 D: 0.980 L1: 0.152
+Epoch 1 Step 400 | G: 24.310 D: 0.240 L1: 0.219
+2026-02-25 02:43:33.075200: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+Epoch 1 done
+Epoch 2 Step 0 | G: 24.939 D: 0.420 L1: 0.232
+Epoch 2 Step 50 | G: 25.332 D: 0.566 L1: 0.243
+Epoch 2 Step 100 | G: 20.554 D: 0.797 L1: 0.186
+Epoch 2 Step 150 | G: 24.077 D: 0.320 L1: 0.215
+Epoch 2 Step 200 | G: 25.104 D: 0.725 L1: 0.223
+Epoch 2 Step 250 | G: 22.207 D: 0.530 L1: 0.210
+Epoch 2 Step 300 | G: 28.158 D: 0.434 L1: 0.258
+Epoch 2 Step 350 | G: 22.405 D: 0.569 L1: 0.203
+Epoch 2 Step 400 | G: 28.642 D: 0.669 L1: 0.277
+2026-02-25 02:47:32.890050: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+Epoch 2 done
+Epoch 3 Step 0 | G: 25.076 D: 0.535 L1: 0.233
+Epoch 3 Step 50 | G: 17.199 D: 2.241 L1: 0.150
+Epoch 3 Step 100 | G: 19.825 D: 0.750 L1: 0.188
+Epoch 3 Step 150 | G: 24.930 D: 0.365 L1: 0.229
+Epoch 3 Step 200 | G: 17.937 D: 1.549 L1: 0.176
+Epoch 3 Step 250 | G: 25.465 D: 0.379 L1: 0.233
+Epoch 3 Step 300 | G: 23.990 D: 1.187 L1: 0.233
+Epoch 3 Step 350 | G: 25.698 D: 0.758 L1: 0.248
+Epoch 3 Step 400 | G: 26.435 D: 0.818 L1: 0.246
+Epoch 3 done
+Epoch 4 Step 0 | G: 21.238 D: 0.649 L1: 0.196
+Epoch 4 Step 50 | G: 27.050 D: 0.796 L1: 0.259
+Epoch 4 Step 100 | G: 26.850 D: 0.894 L1: 0.237
+Epoch 4 Step 150 | G: 42.550 D: 0.292 L1: 0.409
+Epoch 4 Step 200 | G: 25.864 D: 1.899 L1: 0.237
+Epoch 4 Step 250 | G: 30.156 D: 0.433 L1: 0.285
+Epoch 4 Step 300 | G: 31.029 D: 0.503 L1: 0.291
+Epoch 4 Step 350 | G: 20.975 D: 0.705 L1: 0.199
+Epoch 4 Step 400 | G: 36.233 D: 0.176 L1: 0.338
+2026-02-25 02:55:34.158318: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+Epoch 4 done
+Epoch 5 Step 0 | G: 25.700 D: 0.290 L1: 0.239
+Epoch 5 Step 50 | G: 26.977 D: 0.618 L1: 0.253
+Epoch 5 Step 100 | G: 26.279 D: 0.831 L1: 0.255
+Epoch 5 Step 150 | G: 22.434 D: 0.307 L1: 0.207
+Epoch 5 Step 200 | G: 29.121 D: 0.717 L1: 0.279
+Epoch 5 Step 250 | G: 21.175 D: 0.654 L1: 0.196
+Epoch 5 Step 300 | G: 23.222 D: 1.845 L1: 0.226
+Epoch 5 Step 350 | G: 23.720 D: 0.515 L1: 0.224
+Epoch 5 Step 400 | G: 25.825 D: 0.499 L1: 0.244
+Epoch 5 done
+Epoch 6 Step 0 | G: 25.029 D: 1.197 L1: 0.237
+Epoch 6 Step 50 | G: 22.177 D: 1.145 L1: 0.214
+Epoch 6 Step 100 | G: 22.328 D: 1.990 L1: 0.202
+Epoch 6 Step 150 | G: 19.381 D: 0.869 L1: 0.187
+Epoch 6 Step 200 | G: 29.172 D: 0.447 L1: 0.269
+Epoch 6 Step 250 | G: 24.950 D: 0.438 L1: 0.229
+Epoch 6 Step 300 | G: 37.240 D: 0.517 L1: 0.352
+Epoch 6 Step 350 | G: 25.293 D: 0.811 L1: 0.220
+Epoch 6 Step 400 | G: 22.110 D: 1.552 L1: 0.213
+Epoch 6 done
+Epoch 7 Step 0 | G: 17.720 D: 1.052 L1: 0.166
+Epoch 7 Step 50 | G: 22.994 D: 0.742 L1: 0.222
+Epoch 7 Step 100 | G: 18.957 D: 0.927 L1: 0.182
+Epoch 7 Step 150 | G: 28.687 D: 0.395 L1: 0.267
+Epoch 7 Step 200 | G: 25.561 D: 0.410 L1: 0.232
+Epoch 7 Step 250 | G: 21.503 D: 1.993 L1: 0.204
+Epoch 7 Step 300 | G: 18.854 D: 1.364 L1: 0.181
+Epoch 7 Step 350 | G: 27.804 D: 1.040 L1: 0.268
+Epoch 7 Step 400 | G: 26.719 D: 0.397 L1: 0.255
+Epoch 7 done
+Epoch 8 Step 0 | G: 17.205 D: 0.758 L1: 0.155
+Epoch 8 Step 50 | G: 20.257 D: 1.017 L1: 0.193
+Epoch 8 Step 100 | G: 24.302 D: 1.087 L1: 0.238
+Epoch 8 Step 150 | G: 27.228 D: 1.076 L1: 0.265
+Epoch 8 Step 200 | G: 24.181 D: 0.723 L1: 0.231
+Epoch 8 Step 250 | G: 19.753 D: 1.484 L1: 0.190
+Epoch 8 Step 300 | G: 16.210 D: 1.243 L1: 0.152
+Epoch 8 Step 350 | G: 16.006 D: 1.398 L1: 0.147
+Epoch 8 Step 400 | G: 27.427 D: 0.834 L1: 0.260
+2026-02-25 03:11:33.590487: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+Epoch 8 done
+Epoch 9 Step 0 | G: 19.841 D: 0.918 L1: 0.184
+Epoch 9 Step 50 | G: 25.885 D: 1.092 L1: 0.253
+Epoch 9 Step 100 | G: 21.346 D: 0.567 L1: 0.203
+Epoch 9 Step 150 | G: 23.767 D: 1.024 L1: 0.224
+Epoch 9 Step 200 | G: 32.490 D: 0.907 L1: 0.318
+Epoch 9 Step 250 | G: 18.949 D: 0.581 L1: 0.174
+Epoch 9 Step 300 | G: 17.235 D: 1.793 L1: 0.156
+Epoch 9 Step 350 | G: 26.308 D: 0.990 L1: 0.254
+Epoch 9 Step 400 | G: 23.431 D: 0.770 L1: 0.221
+Epoch 9 done
+Epoch 10 Step 0 | G: 17.654 D: 0.585 L1: 0.163
+Epoch 10 Step 50 | G: 22.897 D: 0.801 L1: 0.221
+Epoch 10 Step 100 | G: 21.481 D: 0.968 L1: 0.203
+Epoch 10 Step 150 | G: 20.934 D: 1.276 L1: 0.186
+Epoch 10 Step 200 | G: 20.137 D: 0.569 L1: 0.185
+Epoch 10 Step 250 | G: 24.504 D: 0.900 L1: 0.225
+Epoch 10 Step 300 | G: 25.723 D: 0.970 L1: 0.249
+Epoch 10 Step 350 | G: 21.941 D: 1.061 L1: 0.210
+Epoch 10 Step 400 | G: 25.663 D: 0.791 L1: 0.246
+Epoch 10 done
+Epoch 11 Step 0 | G: 17.014 D: 0.971 L1: 0.159
+Epoch 11 Step 50 | G: 17.978 D: 1.858 L1: 0.164
+Epoch 11 Step 100 | G: 20.930 D: 0.642 L1: 0.196
+Epoch 11 Step 150 | G: 21.482 D: 1.560 L1: 0.203
+Epoch 11 Step 200 | G: 15.201 D: 1.178 L1: 0.145
+Epoch 11 Step 250 | G: 16.247 D: 0.851 L1: 0.155
+Epoch 11 Step 300 | G: 18.546 D: 2.125 L1: 0.170
+Epoch 11 Step 350 | G: 19.090 D: 0.795 L1: 0.180
+Epoch 11 Step 400 | G: 21.064 D: 1.605 L1: 0.207
+Epoch 11 done
+Epoch 12 Step 0 | G: 19.003 D: 1.354 L1: 0.178
+Epoch 12 Step 50 | G: 21.162 D: 1.725 L1: 0.185
+Epoch 12 Step 100 | G: 15.910 D: 0.876 L1: 0.145
+Epoch 12 Step 150 | G: 17.855 D: 0.542 L1: 0.168
+Epoch 12 Step 200 | G: 23.043 D: 0.769 L1: 0.210
+Epoch 12 Step 250 | G: 13.865 D: 1.128 L1: 0.128
+Epoch 12 Step 300 | G: 19.858 D: 0.472 L1: 0.180
+Epoch 12 Step 350 | G: 22.166 D: 1.599 L1: 0.219
+Epoch 12 Step 400 | G: 22.019 D: 0.991 L1: 0.207
+Epoch 12 done
+Epoch 13 Step 0 | G: 21.475 D: 0.295 L1: 0.197
+Epoch 13 Step 50 | G: 17.304 D: 0.446 L1: 0.156
+Epoch 13 Step 100 | G: 18.611 D: 0.758 L1: 0.175
+Epoch 13 Step 150 | G: 23.997 D: 0.721 L1: 0.214
+Epoch 13 Step 200 | G: 17.516 D: 0.756 L1: 0.157
+Epoch 13 Step 250 | G: 19.229 D: 1.064 L1: 0.187
+Epoch 13 Step 300 | G: 21.013 D: 0.791 L1: 0.196
+Epoch 13 Step 350 | G: 12.976 D: 0.957 L1: 0.123
+Epoch 13 Step 400 | G: 14.923 D: 1.088 L1: 0.141
+Epoch 13 done
+Epoch 14 Step 0 | G: 16.490 D: 1.219 L1: 0.159
+Epoch 14 Step 50 | G: 20.763 D: 1.038 L1: 0.194
+Epoch 14 Step 100 | G: 16.959 D: 1.038 L1: 0.162
+Epoch 14 Step 150 | G: 18.709 D: 0.762 L1: 0.178
+Epoch 14 Step 200 | G: 15.507 D: 1.054 L1: 0.137
+Epoch 14 Step 250 | G: 20.255 D: 0.746 L1: 0.190
+Epoch 14 Step 300 | G: 22.364 D: 1.068 L1: 0.201
+Epoch 14 Step 350 | G: 19.244 D: 0.845 L1: 0.184
+Epoch 14 Step 400 | G: 16.030 D: 0.938 L1: 0.153
+Epoch 14 done
+Epoch 15 Step 0 | G: 19.783 D: 1.020 L1: 0.184
+Epoch 15 Step 50 | G: 13.619 D: 1.356 L1: 0.116
+Epoch 15 Step 100 | G: 14.182 D: 0.702 L1: 0.132
+Epoch 15 Step 150 | G: 16.457 D: 0.583 L1: 0.146
+Epoch 15 Step 200 | G: 17.357 D: 1.240 L1: 0.159
+Epoch 15 Step 250 | G: 17.083 D: 1.458 L1: 0.167
+Epoch 15 Step 300 | G: 14.733 D: 1.145 L1: 0.135
+Epoch 15 Step 350 | G: 19.109 D: 0.996 L1: 0.174
+Epoch 15 Step 400 | G: 17.518 D: 1.578 L1: 0.150
+Epoch 15 done
+Epoch 16 Step 0 | G: 15.482 D: 0.923 L1: 0.146
+Epoch 16 Step 50 | G: 15.014 D: 1.050 L1: 0.134
+Epoch 16 Step 100 | G: 15.693 D: 0.821 L1: 0.136
+Epoch 16 Step 150 | G: 15.229 D: 1.557 L1: 0.130
+Epoch 16 Step 200 | G: 20.888 D: 1.108 L1: 0.190
+Epoch 16 Step 250 | G: 15.878 D: 1.218 L1: 0.147
+Epoch 16 Step 300 | G: 14.739 D: 0.464 L1: 0.132
+Epoch 16 Step 350 | G: 17.464 D: 1.165 L1: 0.153
+Epoch 16 Step 400 | G: 15.523 D: 1.357 L1: 0.144
+2026-02-25 03:48:51.417341: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+Epoch 16 done
+Epoch 17 Step 0 | G: 18.631 D: 1.423 L1: 0.170
+Epoch 17 Step 50 | G: 21.748 D: 0.355 L1: 0.203
+Epoch 17 Step 100 | G: 34.318 D: 0.379 L1: 0.329
+Epoch 17 Step 150 | G: 15.885 D: 1.392 L1: 0.154
+Epoch 17 Step 200 | G: 18.232 D: 0.689 L1: 0.161
+Epoch 17 Step 250 | G: 13.968 D: 0.626 L1: 0.125
+Epoch 17 Step 300 | G: 20.522 D: 0.469 L1: 0.184
+Epoch 17 Step 350 | G: 18.102 D: 0.512 L1: 0.170
+Epoch 17 Step 400 | G: 13.039 D: 1.173 L1: 0.118
+Epoch 17 done
+Epoch 18 Step 0 | G: 12.955 D: 1.595 L1: 0.123
+Epoch 18 Step 50 | G: 16.860 D: 0.951 L1: 0.152
+Epoch 18 Step 100 | G: 22.270 D: 0.369 L1: 0.207
+Epoch 18 Step 150 | G: 14.807 D: 0.858 L1: 0.129
+Epoch 18 Step 200 | G: 21.049 D: 1.032 L1: 0.184
+Epoch 18 Step 250 | G: 20.046 D: 0.618 L1: 0.174
+Epoch 18 Step 300 | G: 16.482 D: 0.382 L1: 0.143
+Epoch 18 Step 350 | G: 15.200 D: 0.427 L1: 0.127
+Epoch 18 Step 400 | G: 17.432 D: 0.256 L1: 0.153
+Epoch 18 done
+Epoch 19 Step 0 | G: 14.005 D: 1.128 L1: 0.118
+Epoch 19 Step 50 | G: 12.898 D: 0.502 L1: 0.115
+Epoch 19 Step 100 | G: 12.600 D: 1.186 L1: 0.117
+Epoch 19 Step 150 | G: 14.948 D: 1.325 L1: 0.121
+Epoch 19 Step 200 | G: 13.995 D: 0.522 L1: 0.125
+Epoch 19 Step 250 | G: 11.985 D: 0.822 L1: 0.108
+Epoch 19 Step 300 | G: 19.027 D: 0.156 L1: 0.166
+25 L1: 0.114
+Epoch 20 done
+Epoch 21 Step 0 | G: 12.170 D: 0.626 L1: 0.110
+Epoch 21 Step 50 | G: 17.379 D: 0.469 L1: 0.154
+Epoch 21 Step 100 | G: 19.066 D: 0.380 L1: 0.171
+Epoch 21 Step 150 | G: 17.400 D: 0.520 L1: 0.150
+Epoch 21 Step 200 | G: 20.176 D: 0.201 L1: 0.179
+Epoch 21 Step 250 | G: 17.229 D: 0.419 L1: 0.155
+Epoch 21 Step 300 | G: 14.013 D: 0.695 L1: 0.129
+Epoch 21 Step 350 | G: 10.933 D: 1.094 L1: 0.096
+Epoch 21 Step 400 | G: 14.067 D: 0.950 L1: 0.134
+Epoch 21 done
+Epoch 22 Step 0 | G: 19.034 D: 0.345 L1: 0.169
+Epoch 22 Step 50 | G: 19.800 D: 0.456 L1: 0.169
+Epoch 22 Step 100 | G: 19.264 D: 0.629 L1: 0.167
+Epoch 22 Step 150 | G: 15.469 D: 0.766 L1: 0.136
+Epoch 22 Step 200 | G: 12.545 D: 2.004 L1: 0.102
+Epoch 22 Step 250 | G: 15.988 D: 0.404 L1: 0.143
+Epoch 22 Step 300 | G: 12.576 D: 1.003 L1: 0.111
+Epoch 22 Step 350 | G: 13.908 D: 0.430 L1: 0.114
+Epoch 22 Step 400 | G: 14.360 D: 1.107 L1: 0.123
+Epoch 22 done
+Epoch 23 Step 0 | G: 10.257 D: 1.047 L1: 0.088
+Epoch 23 Step 50 | G: 16.364 D: 0.710 L1: 0.140
+Epoch 23 Step 100 | G: 12.978 D: 1.023 L1: 0.124
+Epoch 23 Step 150 | G: 14.356 D: 0.866 L1: 0.120
+Epoch 23 Step 200 | G: 12.534 D: 0.799 L1: 0.114
+Epoch 23 Step 250 | G: 8.959 D: 1.179 L1: 0.079
+Epoch 23 Step 300 | G: 13.698 D: 0.837 L1: 0.109
+Epoch 23 Step 350 | G: 12.103 D: 0.625 L1: 0.108
+Epoch 23 Step 400 | G: 13.875 D: 0.763 L1: 0.128
+Epoch 23 done
+Epoch 24 Step 0 | G: 12.856 D: 0.463 L1: 0.111
+Epoch 24 Step 50 | G: 13.304 D: 0.507 L1: 0.114
+Epoch 24 Step 100 | G: 12.299 D: 0.507 L1: 0.107
+Epoch 24 Step 150 | G: 12.031 D: 1.499 L1: 0.098
+Epoch 24 Step 200 | G: 13.328 D: 0.410 L1: 0.118
+Epoch 24 Step 250 | G: 18.002 D: 0.282 L1: 0.157
+Epoch 24 Step 300 | G: 14.005 D: 0.828 L1: 0.130
+Epoch 24 Step 350 | G: 13.133 D: 0.386 L1: 0.114
+Epoch 24 Step 400 | G: 13.350 D: 1.010 L1: 0.108
+Epoch 24 done
+Epoch 25 Step 0 | G: 11.701 D: 0.668 L1: 0.105
+Epoch 25 Step 50 | G: 13.625 D: 0.486 L1: 0.115
+Epoch 25 Step 100 | G: 19.573 D: 0.420 L1: 0.166
+Epoch 25 Step 150 | G: 10.721 D: 0.544 L1: 0.088
+Epoch 25 Step 200 | G: 12.864 D: 0.872 L1: 0.107
+Epoch 25 Step 250 | G: 10.400 D: 1.934 L1: 0.080
+Epoch 25 Step 300 | G: 12.494 D: 0.877 L1: 0.099
+Epoch 25 Step 350 | G: 14.021 D: 0.683 L1: 0.127
+Epoch 25 Step 400 | G: 14.877 D: 0.714 L1: 0.126
+Epoch 25 done
+Epoch 26 Step 0 | G: 12.428 D: 0.405 L1: 0.106
+Epoch 26 Step 50 | G: 9.323 D: 1.566 L1: 0.086
+Epoch 26 Step 100 | G: 11.044 D: 0.665 L1: 0.095
+Epoch 26 Step 150 | G: 13.236 D: 0.769 L1: 0.110
+Epoch 26 Step 200 | G: 13.448 D: 1.596 L1: 0.113
+Epoch 26 Step 250 | G: 13.039 D: 0.536 L1: 0.112
+Epoch 26 Step 300 | G: 11.661 D: 0.594 L1: 0.101
+Epoch 26 Step 350 | G: 15.237 D: 0.594 L1: 0.128
+Epoch 26 Step 400 | G: 15.947 D: 0.557 L1: 0.139
+Epoch 26 done
+Epoch 27 Step 0 | G: 13.526 D: 0.804 L1: 0.124
+Epoch 27 Step 50 | G: 11.821 D: 0.843 L1: 0.107
+Epoch 27 Step 100 | G: 13.168 D: 1.420 L1: 0.125
+Epoch 27 Step 150 | G: 15.617 D: 0.335 L1: 0.138
+Epoch 27 Step 200 | G: 11.626 D: 0.589 L1: 0.102
+Epoch 27 Step 250 | G: 11.575 D: 1.276 L1: 0.103
+Epoch 27 Step 300 | G: 12.823 D: 1.684 L1: 0.122
+Epoch 27 Step 350 | G: 12.301 D: 0.583 L1: 0.109
+Epoch 27 Step 400 | G: 10.983 D: 0.684 L1: 0.098
+Epoch 27 done
+Epoch 28 Step 0 | G: 11.864 D: 0.811 L1: 0.106
+Epoch 28 Step 50 | G: 11.671 D: 0.499 L1: 0.105
+Epoch 28 Step 100 | G: 9.043 D: 1.055 L1: 0.076
+Epoch 28 Step 150 | G: 12.484 D: 0.747 L1: 0.116
+Epoch 28 Step 200 | G: 11.519 D: 0.633 L1: 0.104
+Epoch 28 Step 250 | G: 9.390 D: 1.122 L1: 0.086
+Epoch 28 Step 300 | G: 13.134 D: 0.860 L1: 0.113
+Epoch 28 Step 350 | G: 11.314 D: 0.693 L1: 0.103
+Epoch 28 Step 400 | G: 12.660 D: 0.718 L1: 0.116
+Epoch 28 done
+Epoch 29 Step 0 | G: 18.401 D: 0.449 L1: 0.170
+Epoch 29 Step 50 | G: 11.652 D: 0.632 L1: 0.105
+Epoch 29 Step 100 | G: 10.020 D: 0.929 L1: 0.089
+Epoch 29 Step 150 | G: 10.697 D: 1.526 L1: 0.090
+Epoch 29 Step 200 | G: 9.940 D: 0.364 L1: 0.083
+Epoch 29 Step 250 | G: 16.045 D: 0.458 L1: 0.137
+Epoch 29 Step 300 | G: 11.300 D: 1.068 L1: 0.097
+Epoch 29 Step 350 | G: 11.758 D: 1.345 L1: 0.097
+Epoch 29 Step 400 | G: 8.800 D: 0.563 L1: 0.075
+Epoch 29 done
+Epoch 30 Step 0 | G: 9.441 D: 0.794 L1: 0.084
+Epoch 30 Step 50 | G: 11.592 D: 1.364 L1: 0.094
+Epoch 30 Step 100 | G: 13.718 D: 0.681 L1: 0.126
+Epoch 30 Step 150 | G: 13.324 D: 0.708 L1: 0.115
+Epoch 30 Step 200 | G: 14.157 D: 0.494 L1: 0.122
+Epoch 30 Step 250 | G: 10.109 D: 0.789 L1: 0.086
+Epoch 30 Step 300 | G: 10.294 D: 0.862 L1: 0.091
+Epoch 30 Step 350 | G: 12.092 D: 1.274 L1: 0.102
+Epoch 30 Step 400 | G: 8.305 D: 1.073 L1: 0.073
+Epoch 30 done
+(venv) PS C:\Users\salma\OneDrive\Desktop\UNI\Spring 2026\DSAI 406\Assignment1> 
