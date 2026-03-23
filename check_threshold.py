@@ -1,6 +1,6 @@
 import sys
 
-THRESHOLD = 0.6
+THRESHOLD = 0.9
 
 with open("model_info.txt") as f:
     lines = dict(line.strip().split("=") for line in f if "=" in line)
