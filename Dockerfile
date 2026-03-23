@@ -9,6 +9,9 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
+RUN echo "Downloading model for Run ID: ${RUN_ID}"
+
 ENV TF_CPP_MIN_LOG_LEVEL=2
 ENV CUDA_VISIBLE_DEVICES=""
-CMD ["python", "src/infer.py"]
+
+CMD echo "Serving model for Run ID: ${RUN_ID}" && python src/train.py

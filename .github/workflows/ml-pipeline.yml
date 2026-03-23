@@ -25,7 +25,6 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-          pip install dvc dvc-gdrive
 
       - name: Pull Data (DVC)
         run: dvc pull
@@ -35,9 +34,36 @@ jobs:
       - name: Train Model
         run: python src/train.py
 
-      #  run_id + val_accuracy
       - name: Upload model_info artifact
         uses: actions/upload-artifact@v4
         with:
           name: model-info
           path: model_info.txt
+
+  deploy:
+    needs: validate
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Download model_info artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: model-info
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Check Accuracy Threshold
+        run: python check_threshold.py
+
+      - name: Mock Docker Build
+        run: |
+          RUN_ID=$(grep '^run_id=' model_info.txt | cut -d'=' -f2)
+          echo "Building Docker image for Run ID: $RUN_ID"
+          docker build --build-arg RUN_ID=$RUN_ID -t sketch-classifier:$RUN_ID .
+          echo "Docker image sketch-classifier:$RUN_ID built successfully"
