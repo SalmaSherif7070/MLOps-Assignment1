@@ -1,38 +1,89 @@
 # .github/workflows/ml-pipeline.yml
-name: ML Model CI
+name: ML Model CI/CD
 
 on:
-    push:
-        branches-ignore:
-          - main   
-    pull_request:
+  push:
+    branches-ignore:
+      - main
+  pull_request:
 
 jobs:
-    validate-and-test:
-        runs-on: ubuntu-latest
-        steps:
-          - name: Checkout Repository
-            uses: actions/checkout@v4
 
-          - name: Set up Python
-            uses: actions/setup-python@v5
-            with:
-              python-version: '3.10'
+  validate:
+    runs-on: ubuntu-latest
 
-          - name: Install Dependencies
-            run: pip install -r requirements.txt
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-          - name: Linter Check
-            run: |
-              pip install flake8
-              flake8 src/ --max-line-length=120 --exit-zero
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-          - name: Model Dry Test
-            run: |
-              python -c "import tensorflow as tf; print('Model environment ready!')"   # <-- torch → tensorflow
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install dvc
 
-          - name: Upload project-doc
-            uses: actions/upload-artifact@v4
-            with:
-              name: project-doc
-              path: README.md
+      - name: Pull Data (DVC)
+        run: dvc pull
+        env:
+          GDRIVE_CREDENTIALS_DATA: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
+
+      - name: Train Model
+        run: python src/train.py
+
+      #  run_id + val_accuracy
+      - name: Upload model_info artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-info
+          path: model_info.txt
+
+  # deploy:
+  #   needs: validate
+  #   runs-on: ubuntu-latest
+
+  #   steps:
+  #     - name: Checkout Repository
+  #       uses: actions/checkout@v4
+
+  #     - name: Download model_info artifact
+  #       uses: actions/download-artifact@v4
+  #       with:
+  #         name: model-info
+
+  #     - name: Read Run ID from model_info.txt
+  #       id: model_meta
+  #       run: |
+  #         RUN_ID=$(grep '^run_id='       model_info.txt | cut -d'=' -f2)
+  #         ACCURACY=$(grep '^val_accuracy=' model_info.txt | cut -d'=' -f2)
+  #         echo "run_id=$RUN_ID"   >> $GITHUB_OUTPUT
+  #         echo "accuracy=$ACCURACY" >> $GITHUB_OUTPUT
+  #         echo "Deploying Run ID : $RUN_ID  (val_accuracy=$ACCURACY)"
+
+  #     - name: Build Docker Image
+  #       run: |
+  #         docker build \
+  #           --build-arg MLFLOW_RUN_ID=${{ steps.model_meta.outputs.run_id }} \
+  #           -t sketch-classifier:${{ steps.model_meta.outputs.run_id }} \
+  #           .
+
+  #     # Optional: push to a registry (uncomment + add secrets)
+  #     # - name: Push to Docker Hub
+  #     #   run: |
+  #     #     echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+  #     #     docker tag  sketch-classifier:${{ steps.model_meta.outputs.run_id }} \
+  #     #                 ${{ secrets.DOCKER_USERNAME }}/sketch-classifier:latest
+  #     #     docker push ${{ secrets.DOCKER_USERNAME }}/sketch-classifier:latest
+
+  #     - name: Deployment Summary
+  #       run: |
+  #         echo "========================================="
+  #         echo " Deployment complete"
+  #         echo " MLflow Run ID : ${{ steps.model_meta.outputs.run_id }}"
+  #         echo " val_accuracy  : ${{ steps.model_meta.outputs.accuracy }}"
+  #         echo " Image tag     : sketch-classifier:${{ steps.model_meta.outputs.run_id }}"
+  #         echo "========================================="
